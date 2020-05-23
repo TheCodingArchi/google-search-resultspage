@@ -1,0 +1,158 @@
+body {
+	font-family: Arial, sans-serif;
+}
+/* =======================================
+	Header styling and layout starts here
+   =======================================*/
+header {
+	border-bottom: 1px solid #dfe1e5;
+	padding-top: 20px;
+}
+/* layout and position the logo, search form, and the menu and profile button */
+.logo-form-profile-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo-form-group {
+	display: flex;
+}
+.logo {
+	display: flex;
+	margin-left: 30px;
+	align-items: center;
+}
+.logo img {
+	width: 92px;
+	height: 30px;
+}
+/* style the search form and position its icon */
+.form-group {
+	border: 1px solid#dfe1e5;
+	border-radius: 25px;
+	display: flex;
+	width: 690px;
+	margin-left: 45px;
+}
+.form-group:hover {
+	box-shadow: 1px 1px 5px #c9c6c6;
+}
+input[type="search"] {
+	width: 580px;
+	margin-left: 15px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 6px 0;
+	border: none;
+}
+input[type="search"]:focus {
+	outline: none;
+}
+.icon-group {
+	align-self: center;
+	margin-left: 13px;
+	color: #4285f4;
+	cursor: pointer;
+}
+.search-icon {
+	margin-left: 12px;
+}
+/* style and layout the menu and profile button */
+.menu-group {
+	margin-right: 30px;
+}
+.menu-group nav {
+	display: flex;
+	align-items: center;
+}
+.gg-menu-grid-o {
+	display: inline-block !important;
+	color: #5f6368;
+}
+.menu-grid {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: transparent;
+	padding-top: 3px;
+	margin-right: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.menu-grid:hover {
+	background-color: #eff0f0;
+}
+.menu-group nav div a {
+	text-decoration: none;
+	color: #ffffff;
+	padding-bottom: 2px;
+}
+.profile-button {
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	width: 28px;
+	height: 28px;
+	background-color: #004d40;
+	border: 3px solid transparent;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 5px;
+	box-sizing: content-box;
+}
+.profile-button:hover {
+	border: 3px solid #eff0f0;
+}
+/* style and layout the navigation links at the bottom of the header */
+.nav-group nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0 0 0;
+	align-items: flex-end;
+	height: 60px;
+	width: 850px;
+}
+.nav-group nav ul li {
+	display: inline;
+}
+.nav-group nav .nav-1 {
+	margin-left: 180px;
+}
+.nav-group nav .nav-2 {
+	margin-right: 20px;
+	height: 33px;
+}
+.nav-group nav ul li a {
+	text-decoration: none;
+	color: #5f6368;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+	text-transform: capitalize;
+	display: inline-block;
+	padding: 0 10px;
+	line-height: 30px;
+}
+.fas,
+.far {
+	margin-right: 8px;
+	opacity: 0.8;
+}
+.nav-group nav .nav-1 .all {
+	color: #4285f4;
+	border-bottom: 3px solid #4285f4;
+}
+.nav-group nav .nav-2 .tools {
+	border: 1px solid transparent;
+	border-radius: 2px;
+	line-height: 25px;
+}
+.nav-group nav .nav-2 .tools:hover {
+	border: 1px solid #c5c4c4;
+	border-radius: 2px;
+	background-color: #f1f1f1;
+	line-height: 25px;
+}
