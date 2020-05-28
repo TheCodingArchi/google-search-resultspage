@@ -470,3 +470,65 @@ em {
 .box-6 div ul ~ div {
 	margin-left: 70px;
 }
+footer {
+	background-color: #f2f2f2;
+	border-top: 1px solid rgba(223, 223, 226, 0.6);
+	margin-top: 30px;
+}
+footer hr {
+	border: 1px solid rgba(223, 223, 226, 0.6);
+}
+footer p {
+	padding: 10px 0 5px 0;
+	width: 673px;
+	margin-left: 173px;
+	color: rgba(0, 0, 0, 0.54);
+	font-size: 15px;
+	font-weight: 400;
+}
+footer p .marker {
+	color: rgba(223, 223, 226, 0.8);
+	display: inline-block;
+	padding: 0 10px;
+}
+footer p .dot {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #9e9e9e;
+}
+footer p .location {
+	font-size: 14px;
+	line-height: 15px;
+	font-weight: 700;
+	color: #333333;
+}
+footer nav {
+	width: 673px;
+	margin-left: 173px;
+}
+footer p a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.54);
+	font-size: 14px;
+}
+footer p a:hover {
+	color: #333333;
+}
+footer nav ul li {
+	display: inline;
+}
+footer nav li a {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.54);
+	display: inline-block;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	line-height: 30px;
+}
+footer nav li a:hover {
+	color: #333333;
+}
