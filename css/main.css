@@ -416,20 +416,24 @@ em {
 .software-img div a:hover {
 	text-decoration: underline;
 }
-.box-2 .related-searches {
+.box-7 {
+	padding: 18px 40px 10px 0;
+	word-spacing: normal;
+}
+.box-7 span {
 	font-size: 20px;
 	line-height: 26px;
 	font-weight: 400;
 	color: #222222;
 }
-.box-2 span ~ div {
+.box-7 span ~ div {
 	display: flex;
 	margin-top: 20px;
 }
-.box-2 span ~ div div {
+.box-7 span ~ div div {
 	margin-right: 28px;
 }
-.box-2 span ~ div a {
+.box-7 span ~ div a {
 	display: block;
 	font-size: 14px;
 	line-height: 20px;
@@ -438,7 +442,7 @@ em {
 	text-decoration: none;
 	margin-bottom: 5px;
 }
-.box-2 span ~ div a:hover {
+.box-7 span ~ div a:hover {
 	text-decoration: underline;
 }
 .box-6 div {
