@@ -416,7 +416,7 @@ em {
 .software-img div a:hover {
 	text-decoration: underline;
 }
-.box-2 span {
+.box-2 .related-searches {
 	font-size: 20px;
 	line-height: 26px;
 	font-weight: 400;
