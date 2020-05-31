@@ -11,17 +11,30 @@
 </head>
 <body>
     <header>
+        <!-- for mobile. to be hidden on bigger screen -->
+        <div class="mobile-logo-profile-group">
+            <div>
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="mobile-logo">
+                <a href="#"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="google logo" ></a>
+            </div> 
+            <div class="mobile-profile-button">
+                <a href="#">o</a>
+            </div>
+        </div>
+        <!-- logo, form and profile -->
         <div class="logo-form-profile-group">
             <div class="logo-form-group">
                 <div class="logo">
-                    <a href="www.google.com"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="google logo"></a>
+                    <a href="www.google.com"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="google logo" ></a>
                 </div>
                 <div class="form-group">
                     <form action="">
                         <input type="search" title="search">
                     </form>
                     <div class="icon-group">
-                        <i class="material-icons">
+                        <i class="material-icons mic-icon">
                         mic
                         </i>
                         <i class="material-icons search-icon">
@@ -30,6 +43,7 @@
                     </div>
                 </div>
             </div>
+            <!-- grid menu and profile -->
             <div class="menu-group">
                 <nav>
                     <div class="menu-grid">
@@ -41,24 +55,26 @@
                 </nav>
             </div>
         </div>
+        <!-- nav links at the bottom of header -->
         <div class="nav-group">
             <nav>
                 <ul class="nav-1">
-                    <li><a href="" class="all"><i class="fas fa-search"></i>all</a></li>
-                    <li><a href=""><i class="far fa-newspaper"></i>news</a></li>
-                    <li><a href=""><i class="fas fa-video"></i>videos</a></li>
-                    <li><a href=""><i class="fas fa-map-marker-alt"></i>maps</a></li>
-                    <li><a href=""><i class="far fa-image"></i>images</a></li>
-                    <li><a href=""><i class="fas fa-ellipsis-v"></i>more</a></li>
+                    <li><a href="" class="all"><i class="fas fa-search hidden-mobile"></i>all</a></li>
+                    <li><a href=""><i class="far fa-newspaper hidden-mobile"></i>news</a></li>
+                    <li><a href=""><i class="fas fa-video hidden-mobile"></i>videos</a></li>
+                    <li><a href=""><i class="fas fa-map-marker-alt hidden-mobile"></i>maps</a></li>
+                    <li><a href=""><i class="far fa-image hidden-mobile"></i>images</a></li>
+                    <li><a href=""><i class="fas fa-ellipsis-v hidden-mobile"></i>more</a></li>
                 </ul>
                 <ul class="nav-2">
-                    <li><a href="">settings</a></li>
-                    <li><a href="" class="tools">tools</a></li>
+                    <li><a href="" class="hidden-mobile">settings</a></li>
+                    <li><a href="" class="tools hidden-mobile">tools</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
+        <!-- search results -->
         <div class="container">
             <p>About 86,000,000 results (0.46 seconds)</p>
             <div class="box-1">
@@ -161,7 +177,7 @@
                         <span>YouTube - </span>Nov 8, 2016
                     </div>
                 </div>
-                <div class="video-card">
+                <div class="video-card hidden-mobile">
                     <div class="video-card-img bg-img3">
                         <i class="fas fa-play-circle fa-3x"></i>
                         <div><span>2:48</span></div>
@@ -356,8 +372,9 @@
         </div>
     </main>
     <footer>
-        <p>Nigeria <span class="marker">| </span> <span class="dot"></span> <span class="location">Ojodu</span> - Based on your past activity - <a href="">Use precise location</a> - <a href=""> Learn more</a></p>
-        <hr>
+        <div>
+            <p>Nigeria <span class="marker">| </span> <span class="dot"></span> <span class="location">Ojodu</span> - Based on your past activity - <span><a href="">Use precise location</a> - <a href=""> Learn more</a></span></p>
+        </div>
             <nav> 
                 <ul>
                     <li><a href="">Help</a></li>

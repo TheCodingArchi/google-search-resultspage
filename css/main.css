@@ -10,6 +10,9 @@ header {
 	border-bottom: 1px solid #dfe1e5;
 	padding-top: 20px;
 }
+.mobile-logo-profile-group {
+	display: none;
+}
 /* layout and position the logo, search form, and the menu and profile button */
 .logo-form-profile-group {
 	display: flex;
@@ -59,7 +62,7 @@ input[type="search"]:focus {
 .search-icon {
 	margin-left: 12px;
 }
-/* style and layout the menu and profile button */
+/* style and layout the menu-grid and profile button */
 .menu-group {
 	margin-right: 30px;
 }
@@ -418,6 +421,7 @@ em {
 }
 .box-7 {
 	padding: 18px 40px 10px 0;
+	margin-bottom: 10px;
 	word-spacing: normal;
 }
 .box-7 span {
@@ -440,10 +444,13 @@ em {
 	font-weight: 700;
 	color: #1a0dab;
 	text-decoration: none;
-	margin-bottom: 5px;
+	margin-bottom: 8px;
 }
 .box-7 span ~ div a:hover {
 	text-decoration: underline;
+}
+.box-6 {
+	margin-bottom: 30px;
 }
 .box-6 div {
 	display: flex;
@@ -477,13 +484,12 @@ em {
 footer {
 	background-color: #f2f2f2;
 	border-top: 1px solid rgba(223, 223, 226, 0.6);
-	margin-top: 30px;
 }
-footer hr {
-	border: 1px solid rgba(223, 223, 226, 0.6);
+footer div {
+	border-bottom: 1px solid rgba(223, 223, 226, 0.6);
 }
 footer p {
-	padding: 10px 0 5px 0;
+	padding: 10px 0 10px 0;
 	width: 673px;
 	margin-left: 173px;
 	color: rgba(0, 0, 0, 0.54);
@@ -535,4 +541,136 @@ footer nav li a {
 }
 footer nav li a:hover {
 	color: #333333;
+}
+/* 
+======================
+Adding responsiveness
+======================
+*/
+@media screen and (max-width: 784px) {
+	.mobile-logo-profile-group {
+		display: none;
+	}
+	.form-group {
+		width: 480px;
+	}
+	input[type="search"] {
+		width: 380px;
+	}
+	.nav-group nav .nav-1 {
+		margin-left: 63px;
+	}
+	.nav-group nav .nav-2 {
+		margin-right: 130px;
+	}
+	main .container {
+		margin-left: 63px;
+	}
+	footer p {
+		margin-left: 63px;
+	}
+	footer nav {
+		margin-left: 63px;
+	}
+}
+/* 
+===================================
+Responsiveness for smaller screens
+===================================
+*/
+@media screen and (max-width: 484px) {
+	.mobile-logo-profile-group {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.logo {
+		display: none;
+	}
+	.menu-group {
+		display: none;
+	}
+	.mobile-logo {
+		width: 92px;
+		height: 30px;
+	}
+	.mobile-profile-button {
+		font-family: 'Roboto', sans-serif;
+		font-size: 22px;
+		font-weight: 400;
+		width: 28px;
+		height: 28px;
+		background-color: #004d40;
+		border: 3px solid transparent;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 5px;
+		box-sizing: content-box;
+	}
+	.mobile-profile-button:hover {
+		border: 3px solid #eff0f0;
+	}
+	.mobile-profile-button a {
+		text-decoration: none;
+		color: #ffffff;
+		padding-bottom: 2px;
+	}
+	.form-group {
+		width: 380px;
+		margin-left: 15px;
+	}
+	input[type="search"] {
+		width: 280px;
+		padding: 3px 0;
+	}
+	.icon-group ~ i {
+		display: none;
+	}
+	.menu-grid {
+		display: none;
+	}
+	.nav-group nav {
+		width: max-content;
+		margin: 0 auto;
+	}
+	.nav-group nav i.fas {
+		display: none;
+	}
+	.nav-group nav i.far {
+		display: none;
+	}
+	.nav-group nav .nav-1 {
+		margin: auto;
+	}
+	.nav-group nav .nav-2 {
+		display: none;
+	}
+	main .container {
+		width: 384px;
+		margin: 0 auto;
+	}
+	.box-1,
+	.box-3 {
+		box-shadow: 1px 1px 5px #c9c6c6;
+	}
+	.video-card {
+		width: 48%;
+	}
+	.hidden-mobile {
+		display: none;
+	}
+	.box-5 span ~ div {
+		flex-wrap: wrap;
+	}
+	footer p {
+		width: 384px;
+		margin: 0 auto;
+	}
+	footer nav {
+		width: 384px;
+		margin: 0 auto;
+	}
 }
