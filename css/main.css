@@ -619,11 +619,11 @@ Responsiveness for smaller screens
 		padding-bottom: 2px;
 	}
 	.form-group {
-		width: 380px;
-		margin-left: 15px;
+		width: 374px;
+		margin: 15px;
 	}
 	input[type="search"] {
-		width: 280px;
+		width: 274px;
 		padding: 3px 0;
 	}
 	.icon-group ~ i {
@@ -649,12 +649,21 @@ Responsiveness for smaller screens
 		display: none;
 	}
 	main .container {
-		width: 384px;
+		width: 370px;
 		margin: 0 auto;
 	}
 	.box-1,
 	.box-3 {
 		box-shadow: 1px 1px 5px #c9c6c6;
+	}
+	.box-2,
+	.box-5 {
+		box-shadow: 1px 1px 5px #c9c6c6;
+		border: 1px solid #dfe1e5;
+		border-radius: 7px;
+		padding: 18px 25px 20px 15px;
+		margin-top: 7px;
+		word-spacing: normal;
 	}
 	.video-card {
 		width: 48%;
@@ -666,11 +675,14 @@ Responsiveness for smaller screens
 		flex-wrap: wrap;
 	}
 	footer p {
-		width: 384px;
+		width: 354px;
 		margin: 0 auto;
 	}
 	footer nav {
-		width: 384px;
+		width: 354px;
 		margin: 0 auto;
+	}
+	footer div p span ~ a ~ a {
+		display: block;
 	}
 }
