@@ -695,4 +695,22 @@ Responsiveness for smaller screens
 		width: 250px;
 		padding: 3px 0;
 	}
+	main .container {
+		width: 350px;
+		margin: 0 auto;
+	}
+	.video-card-tagline {
+		padding-left: 7px;
+	}
+	.video-card-link {
+		padding-left: 7px;
+	}
+	footer p {
+		width: 350px;
+		margin: 0 auto;
+	}
+	footer nav {
+		width: 350px;
+		margin: 0 auto;
+	}
 }
